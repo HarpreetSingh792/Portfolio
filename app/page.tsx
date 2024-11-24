@@ -83,7 +83,7 @@ export default function Home() {
             </h2>
             <div className="relative min-[320px]:-top-8 md:top-6 w-full h-16 flex justify-between items-center flex-wrap min-[320px]:gap-4 md:gap-0">
               <h3 className="text-center min-[320px]:w-full md:w-fit">
-                Copyrigth &copy; 2024 Harpreet Singh{" "}
+                Copyright &copy; 2024 Harpreet Singh{" "}
               </h3>
               <div className="h-full w-full md:w-2/5 flex justify-evenly items-center relative">
                 <ContactIcon
