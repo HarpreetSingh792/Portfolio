@@ -14,7 +14,7 @@ export default function Hero() {
             </div>
             <div className="flex justify-start relative z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-start">
-                  <TextGenerateEffect className="text-left text-[20px] md:text-5xl lg:text-6xl" words="Hi, I’m Harpreet Singh" />
+                  <TextGenerateEffect className="text-left text-[24px] md:text-5xl lg:text-6xl" words="Hi, I’m Harpreet Singh" />
                   <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg  lg:text-2xl  dark:text-white">
                   I&apos;m  a  B.Tech student in Computer Science, skilled in React, Node.js, and full-stack development, committed to continuous learning and innovation.
                   </p>
