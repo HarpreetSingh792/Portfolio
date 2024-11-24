@@ -3,14 +3,13 @@ import { FooterGrid } from "@/components/FooterGrid";
 import { GridThree } from "@/components/GridThree";
 import { GridTwo } from "@/components/GridTwo";
 import Hero from "@/components/Hero";
-import { Loader } from "@/components/Loader";
 import { CardRevealProvider } from "@/components/providers/CardRevealProvider";
 import { TestimonialsProvider } from "@/components/providers/TestimonialsProvider";
 import { Skills } from "@/components/Skills";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import MagicButton from "@/components/ui/MagicButton";
 import { data } from "@/data/comments";
-import { lazy, Suspense } from "react";
+import { lazy } from "react";
 const GridOne = lazy(() => import("@/components/GridOne"));
 
 

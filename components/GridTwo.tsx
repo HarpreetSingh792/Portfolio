@@ -51,7 +51,7 @@ export const GridTwo = () => {
   });
 
   return (
-    <div className="pb-10 relative w-full h-full flex flex-wrap  justify-center items-center grid-two">
+    <div className="pb-10 relative w-full h-full flex flex-wrap  justify-center items-center grid-two gap-5 md:gap-0">
       <div className="w-full md:w-1/3 flex flex-col place-content-center place-items-center gap-7">
         <div className="relative rounded-md overflow-hidden w-full md:w-11/12 h-[10rem] shadow-md shadow-white/50 bg-white/10 flex ">
           <h3 className="absolute text-center left-8 top-4 w-3/4 text-lg font-bold text-white">
