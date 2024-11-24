@@ -82,6 +82,14 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        "spinY":{
+          from:{
+            transform:"rotateY(0deg)",
+          },
+          to:{
+            transform:"rotateY(360deg)",
+          }
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -159,6 +167,7 @@ const config = {
         fifth: "moveInCircle 20s ease infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+          spinRound:"spinY 20s ease infinite"
       },
     },
   },
