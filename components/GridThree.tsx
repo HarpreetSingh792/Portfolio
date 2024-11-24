@@ -15,7 +15,7 @@ export const GridThree = () => {
         title="Trendora - Ecommerce App"
         subtitle="Trendora is an e-commerce app built with React, Tailwind CSS, MongoDB, and React Query. It features seamless product browsing, secure checkout, and real-time updates. The admin panel enables efficient management of products, orders, and users, offering a streamlined experience for both customers and admins."
         icons={["re.svg", "ts.svg", "mongodb.svg","express.png"]}
-        link="https://github.com/HarpreetSingh792/Talk-Wave"
+        link="https://trendora-front-end.vercel.app/"
       />
       <ProjectCardProvider
         imgUrl="comingP.svg"
