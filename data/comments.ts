@@ -32,4 +32,10 @@ export const data:dataType =[
         "designation":"Student @ Amritsar Group Of College",
         "quote":`Harpreet is an exceptional mentor, always eager to share his deep knowledge of web development and design. His ability to simplify complex concepts and provide actionable guidance on modern frameworks like React.js has been invaluable, inspiring confidence and growth in aspiring developers.`
     },
+    {
+        "src":"/ripun.jpg",
+        "name":"Ripun",
+        "designation":"Student @ Guru Nanak Dev University",
+        "quote":`Harpreet's mentorship was invaluable. He explained complex concepts with clarity and patience, making it easier for me to learn. His guidance and encouragement truly boosted my confidence. I’m grateful for his support and expertise.`
+    },
 ]
