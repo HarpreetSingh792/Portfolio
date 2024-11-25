@@ -4,6 +4,7 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CardReveal } from "../CardReveal";
 import MagicButton from "../ui/MagicButton";
+import { GiClick } from "react-icons/gi";
 
 export function CardRevealProvider() {
   return (
@@ -11,7 +12,7 @@ export function CardRevealProvider() {
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
         <Card
           title="Planning & Strategy"
-          button={<MagicButton title="Phase 1" />}
+          button={<MagicButton title="Phase 1" position="right" icon={<GiClick className="h-7" />}  />}
           subTitle="We will collaborate to map out your website's goal, target audience and key functionalities. We'll discuss things like site structure, navigation and content requirement."
         >
           <CardReveal
@@ -25,7 +26,7 @@ export function CardRevealProvider() {
           subTitle="Once we agree on the plan, I cue my lofi playlist and dive into
           coding. From initial sketches to polished code, I keep you updated
           every step of the way."
-          button={<MagicButton title="Phase 2" />}
+          button={<MagicButton title="Phase 2" position="right" icon={<GiClick className="h-7" />}  />}
         >
           <CardReveal
            animationSpeed={5.1}
@@ -37,7 +38,7 @@ export function CardRevealProvider() {
         </Card>
         <Card
           title="Development & Launch"
-          button={<MagicButton title="Phase 3" />}
+          button={<MagicButton title="Phase 3" position="right" icon={<GiClick className="h-7" />}  />}
           subTitle="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
         >
           <CardReveal
