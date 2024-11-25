@@ -76,7 +76,7 @@ export default function Home() {
               <a href="tel:+91-9988223402">
                 <MagicButton title="Contact Me" />
               </a>
-              <a href="https://drive.google.com/file/d/1IqkuCB1C8ZIllQ6ZbGu47Hi3qCQ5rN0F/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1B-_0H8Q3ATBVcFZlMcjHf0FD5WUR1cTL/view?usp=sharing">
                 <MagicButton title="Hire me" />
               </a>
             </h2>

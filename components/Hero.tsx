@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="flex flex-wrap justify-center items-center relative z-10">
         <div className="w-full md:w-2/3 flex flex-col items-center justify-start">
           <TextGenerateEffect
-            className="w-full text-left text-[30px] md:text-3xl lg:text-5xl"
+            className="w-full text-left text-[24px] md:text-3xl lg:text-5xl"
             words="Hi,I’m Harpreet Singh"
           />
           <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg  lg:text-2xl  dark:text-white">
