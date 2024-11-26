@@ -18,7 +18,7 @@ export const data:dataType =[
         "src":"/saurav.png",
         "name":"Saurav Kumar",
         "designation":"Student @ Thappar University",
-        "quote":`Here’s a suggested testimonial from your friend: "Working with Harpreet on numerous academic projects has been an enriching experience. His technical skills in development, creative problem-solving, and ability to lead effectively always stood out. His dedication and collaboration made challenging projects a success. Truly a dependable teammate!"`
+        "quote":`Working with Harpreet on numerous academic projects has been an enriching experience. His technical skills in development, creative problem-solving, and ability to lead effectively always stood out. His dedication and collaboration made challenging projects a success. Truly a dependable teammate!`
     },
     {
         "src":"/namo-computer.jpg",
