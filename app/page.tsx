@@ -77,7 +77,7 @@ export default function Home() {
                 <MagicButton title="Resume" />
               </a>
               <a href="tel:+91-9988223402">
-                <MagicButton title="Contact Me" />
+                <MagicButton title="Hire Me" />
               </a>
             </h2>
             <div className="relative min-[320px]:-top-8 md:top-6 w-full h-16 flex justify-between items-center flex-wrap min-[320px]:gap-4 md:gap-0">
