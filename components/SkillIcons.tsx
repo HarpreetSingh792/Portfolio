@@ -21,7 +21,7 @@ export const SkillIcons = () => {
       y: "20px",
       x: "-20px",
       scale: 0,
-      ease: "power4.inOut",
+      ease: "power4.out",
     });
 
     return () => ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
