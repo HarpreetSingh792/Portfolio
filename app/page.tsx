@@ -73,7 +73,10 @@ export default function Home() {
                 Reach out to me today and let's discuss how I can help you
                 achieve your goals.
               </p>
-              <a href="https://drive.google.com/file/d/1SfaF_BcLtPMVgkpWVsbzmSNAxIxo2BRb/view?usp=drive_link">
+              {/* <a href="https://drive.google.com/file/d/1SfaF_BcLtPMVgkpWVsbzmSNAxIxo2BRb/view?usp=drive_link">
+                <MagicButton title="Resume" />
+              </a> */}
+              <a href="https://drive.google.com/file/d/1eoqrdGD2qLg2YJHNd7piQnndl7CqoYM4/view?usp=sharing">
                 <MagicButton title="Resume" />
               </a>
               <a href="tel:+91-9988223402">
