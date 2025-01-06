@@ -4,13 +4,13 @@ export const GridThree = () => {
   return (
     <div className=" relative md:px-8 py-8 grid justify-center items-center place-items-center min-[320px]:grid-cols-1 min-[769px]:grid-cols-2 gap-16 ">
             
-      <ProjectCardProvider
+      {/* <ProjectCardProvider
         imgUrl="tomato.svg"
         title="Tomato – Online Food Delivery Application"
         subtitle="An intuitive online food delivery platform, enabling users to explore restaurants, place orders, and enjoy secure payments with ease."
         icons={["re.svg", "node.png", "mongodb.svg", "express.png", "tail.svg"]}
         link="https://github.com/HarpreetSingh792/Tomato"
-      />
+      /> */}
 
       <ProjectCardProvider
         imgUrl="p2.svg"
@@ -20,13 +20,13 @@ export const GridThree = () => {
         link="https://trendora-front-end.vercel.app/"
       />
 
-      {/* <ProjectCardProvider
+      <ProjectCardProvider
         imgUrl="p1.svg"
         title="Talk Wave - Real Time Team Collaboration App"
         subtitle="Talk-Wave is a real-time collaboration platform built with Next.js, Prisma, and WebSocket. It features live messaging, collaborative canvas, video/audio calling, and screen sharing. Users can manage servers with roles, join global chats, or private discussions, fostering seamless teamwork and community building."
         icons={["next.svg", "re.svg", "tail.svg", "clerk.png"]}
         link="https://github.com/HarpreetSingh792/Talk-Wave"
-      /> */}
+      />
 
       <ProjectCardProvider
         imgUrl="comingP.svg"
